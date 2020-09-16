@@ -1,5 +1,6 @@
 {
-  "name": "monitoring",
+  //"name": "monitoring",
+  "name": "Monitoring",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
