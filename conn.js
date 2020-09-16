@@ -3,7 +3,7 @@ var mysql = require('mysql');
 var con = mysql.createConnection({
   host: "tos.kirei.co.id/admindb",
   user: "rfid123",
-  password: "rfid123",
+  password: "tos123",
   database: "rfid"
 });
 
