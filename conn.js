@@ -1,10 +1,10 @@
 var mysql = require('mysql');
 
 var con = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "",
-  database: "monitoring"
+  host: "tos.kirei.co.id/admindb",
+  user: "rfid123",
+  password: "rfid123",
+  database: "rfid"
 });
 
 con.connect(function (err){
