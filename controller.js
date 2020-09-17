@@ -10,7 +10,8 @@ exports.createdata = function(req, res) {
 
     var hum = req.body.hum;
     var temp = req.body.temp;
-    var timestamp = req.body.timestamp;
+    var timestamp = req.body.timestamp;\
+    console.log(hum,temp)
 
     connection.query('INSERT INTO data_sensor (hum, temp, timestamp) values (?,?,?)',
     [ hum, temp, timestamp ],
