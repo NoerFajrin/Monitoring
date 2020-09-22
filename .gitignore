@@ -1,1 +1,4 @@
 /node_modules/*
+conn.js
+package-lock.json
+package.json
